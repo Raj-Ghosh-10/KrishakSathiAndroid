@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.recyclerview.widget.RecyclerView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/recyclerView"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:contentDescription="List of crop suggestions" />
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- District Dropdown -->
+    <Spinner
+        android:id="@+id/districtSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:contentDescription="Select District" />
+
+    <!-- Season Dropdown -->
+    <Spinner
+        android:id="@+id/seasonSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:contentDescription="Select Season" />
+
+    <!-- Soil Type Dropdown -->
+    <Spinner
+        android:id="@+id/soilTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:contentDescription="Select Soil Type" />
+
+    <!-- Button to filter crops -->
+    <Button
+        android:id="@+id/filterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filter Crops"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Click to filter crops based on selections" />
+
+    <!-- RecyclerView to display crops -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
