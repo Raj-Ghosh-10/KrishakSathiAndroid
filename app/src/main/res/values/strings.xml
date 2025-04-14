@@ -1,0 +1,46 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">KrishakSathiAndroid</string>
+
+    <!-- Crop Information -->
+    <string name="crop_name">Crop Name</string>
+    <string name="market_rate">₹ Market Rate</string>
+    <string name="demand_supply">Demand and Supply</string>
+    <string name="temp_range">Temp: Range</string>
+    <string name="soil_type">Soil Type</string>
+    <string name="yield_rate">Yield Rate</string>
+
+    <!-- Color labels -->
+    <string name="top_crop">Top Crop</string>
+    <string name="normal_crop">Normal Crop</string>
+
+    <!-- Expand/Collapse Text -->
+    <string name="tap_to_expand">Tap to expand</string>
+    <string name="tap_to_collapse">Tap to collapse</string>
+
+    <!-- Bengali Translations -->
+    <string name="app_name_bn">কৃষক সাথী</string>
+    <string name="crop_name_bn">ফসলের নাম</string>
+    <string name="market_rate_bn">₹ বাজার মূল্য</string>
+    <string name="demand_supply_bn">চাহিদা এবং সরবরাহ</string>
+    <string name="temp_range_bn">তাপমাত্রা: সীমা</string>
+    <string name="soil_type_bn">মাটি প্রকার</string>
+    <string name="yield_rate_bn">ফসলের ফলন</string>
+    <string name="top_crop_bn">শীর্ষ ফসল</string>
+    <string name="normal_crop_bn">সাধারণ ফসল</string>
+    <string name="tap_to_expand_bn">বিস্তার করতে ট্যাপ করুন</string>
+    <string name="tap_to_collapse_bn">সঙ্কুচিত করতে ট্যাপ করুন</string>
+
+    <!-- Hindi Translations -->
+    <string name="app_name_hi">कृषक साथी</string>
+    <string name="crop_name_hi">फसल का नाम</string>
+    <string name="market_rate_hi">₹ बाजार दर</string>
+    <string name="demand_supply_hi">मांग और आपूर्ति</string>
+    <string name="temp_range_hi">तापमान: सीमा</string>
+    <string name="soil_type_hi">मिट्टी का प्रकार</string>
+    <string name="yield_rate_hi">उपज दर</string>
+    <string name="top_crop_hi">शीर्ष फसल</string>
+    <string name="normal_crop_hi">सामान्य फसल</string>
+    <string name="tap_to_expand_hi">विस्तार करने के लिए टैप करें</string>
+    <string name="tap_to_collapse_hi">संकुचित करने के लिए टैप करें</string>
+</resources>
