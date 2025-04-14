@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cropCard"
+    android:layout_marginBottom="8dp"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Crop Name (Accessible Text) -->
+        <TextView
+            android:id="@+id/cropName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crop Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:contentDescription="Crop Name"/>
+
+        <!-- Market Rate -->
+        <TextView
+            android:id="@+id/MarketRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹0 per quintal"
+            android:contentDescription="Market Rate"/>
+
+        <!-- Demand and Supply -->
+        <TextView
+            android:id="@+id/demandSupply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Demand: 0, Supply: 0"
+            android:contentDescription="Demand and Supply Information"/>
+
+        <!-- Details Layout (Hidden Initially) -->
+        <LinearLayout
+            android:id="@+id/detailsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!-- Yield -->
+            <TextView
+                android:id="@+id/yieldRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yield: 0 t/ha"
+                android:contentDescription="Yield Rate"/>
+
+            <!-- Temperature Range -->
+            <TextView
+                android:id="@+id/tempRange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temp: 0°C - 0°C"
+                android:contentDescription="Temperature Range"/>
+
+            <!-- Soil Type -->
+            <TextView
+                android:id="@+id/soilType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soil: Loamy"
+                android:contentDescription="Soil Type"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
