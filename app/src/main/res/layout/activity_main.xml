@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="#F5F5DC"> <!-- Light beige background -->
 
     <!-- District Dropdown -->
     <Spinner
@@ -12,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
-        android:contentDescription="Select District" />
+        android:backgroundTint="#A5D6A7"/>
 
     <!-- Season Dropdown -->
     <Spinner
@@ -21,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:minHeight="48dp"
-        android:contentDescription="Select Season" />
+        android:backgroundTint="#FFF176"/>
 
     <!-- Soil Type Dropdown -->
     <Spinner
@@ -30,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:minHeight="48dp"
-        android:contentDescription="Select Soil Type" />
+        android:backgroundTint="#BCAAA4"/>
 
     <!-- Button to filter crops -->
     <Button
@@ -38,13 +39,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Filter Crops"
-        android:layout_marginTop="16dp"
-        android:contentDescription="Click to filter crops based on selections" />
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#388E3C"/>
 
     <!-- RecyclerView to display crops -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="16dp" />
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF" />
 </LinearLayout>
