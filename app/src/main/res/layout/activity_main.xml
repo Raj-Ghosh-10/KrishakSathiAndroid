@@ -3,17 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F5F5DC"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:background="#F5F5DC"> <!-- Light beige background -->
+    android:padding="16dp"> <!-- Light beige background -->
 
     <!-- District Dropdown -->
     <Spinner
         android:id="@+id/districtSpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:backgroundTint="#A5D6A7"/>
+        android:backgroundTint="#A5D6A7"
+        android:minHeight="48dp" />
 
     <!-- Season Dropdown -->
     <Spinner
@@ -21,8 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:minHeight="48dp"
-        android:backgroundTint="#FFF176"/>
+        android:backgroundTint="#FFF176"
+        android:minHeight="48dp" />
 
     <!-- Soil Type Dropdown -->
     <Spinner
@@ -30,24 +30,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:minHeight="48dp"
-        android:backgroundTint="#BCAAA4"/>
+        android:backgroundTint="#BCAAA4"
+        android:minHeight="48dp" />
 
     <!-- Button to filter crops -->
     <Button
         android:id="@+id/filterButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#388E3C"
         android:text="Filter Crops"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#388E3C"/>
+        android:textColor="#FFFFFF" />
 
     <!-- RecyclerView to display crops -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
         android:layout_marginTop="16dp"
+        android:layout_weight="1"
         android:background="#FFFFFF" />
 </LinearLayout>
