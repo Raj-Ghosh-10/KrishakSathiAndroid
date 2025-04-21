@@ -27,7 +27,8 @@ class MainActivity : AppCompatActivity() {
         allCrops = loadCropData()
 
         // Load weather data for the specific district and season
-        val weather = loadWeatherData("Kolkata", "Rabi") // Initially load for a static district/season
+        val weather =
+            loadWeatherData("Kolkata", "Rabi") // Initially load for a static district/season
 
         // Set up the RecyclerView with an empty adapter initially
         cropAdapter = CropAdapter(emptyList(), weather)
@@ -61,7 +62,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun loadWeatherData(district: String, season: String): Weather {
         try {
-            val inputStream = resources.openRawResource(R.raw.weather) // Use R.raw.<filename> without the extension
+            val inputStream =
+                resources.openRawResource(R.raw.weather) // Use R.raw.<filename> without the extension
             val reader = InputStreamReader(inputStream)
             val weatherData = Gson().fromJson(reader, Array<Weather>::class.java)
             return weatherData.first { weather -> weather.district == district && weather.season == season }
@@ -89,7 +91,16 @@ class MainActivity : AppCompatActivity() {
         binding.seasonSpinner.adapter = seasonAdapter
 
         // Soil Type Spinner setup
-        val soilTypes = listOf("Sandy", "Loamy", "Clay", "Sandy-Loam", "Clay-Loam", "Alluvial", "Red Soil", "Black Soil")
+        val soilTypes = listOf(
+            "Sandy",
+            "Loamy",
+            "Clay",
+            "Sandy-Loam",
+            "Clay-Loam",
+            "Alluvial",
+            "Red Soil",
+            "Black Soil"
+        )
         val soilTypeAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, soilTypes)
         soilTypeAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         binding.soilTypeSpinner.adapter = soilTypeAdapter
