@@ -179,544 +179,544 @@
     "sunlight": "Full",
     "drainage": "High"
   },
-    {
-      "district": "Purulia",
-      "season": "Kharif",
-      "avgTemp": 29.5,
-      "avgHumidity": 70,
-      "avgRainfall": 160,
-      "climateType": "Tropical",
-      "sunlight": "Full",
-      "drainage": "High"
-    },
-    {
-      "district": "Purulia",
-      "season": "Rabi",
-      "avgTemp": 20.3,
-      "avgHumidity": 50,
-      "avgRainfall": 32,
-      "climateType": "Dry",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Purulia",
-      "season": "Zaid",
-      "avgTemp": 25.2,
-      "avgHumidity": 55,
-      "avgRainfall": 27,
-      "climateType": "Semi-Arid",
-      "sunlight": "Full",
-      "drainage": "High"
-    },
-    {
-      "district": "Darjeeling",
-      "season": "Kharif",
-      "avgTemp": 23.0,
-      "avgHumidity": 85,
-      "avgRainfall": 180,
-      "climateType": "Hilly",
-      "sunlight": "Moderate",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Darjeeling",
-      "season": "Rabi",
-      "avgTemp": 14.5,
-      "avgHumidity": 68,
-      "avgRainfall": 50,
-      "climateType": "Hilly",
-      "sunlight": "Low",
-      "drainage": "Low"
-    },
-    {
-      "district": "Darjeeling",
-      "season": "Zaid",
-      "avgTemp": 18.0,
-      "avgHumidity": 72,
-      "avgRainfall": 40,
-      "climateType": "Hilly",
-      "sunlight": "Moderate",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Jalpaiguri",
-      "season": "Kharif",
-      "avgTemp": 28.5,
-      "avgHumidity": 88,
-      "avgRainfall": 200,
-      "climateType": "Humid",
-      "sunlight": "Moderate",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Jalpaiguri",
-      "season": "Rabi",
-      "avgTemp": 19.5,
-      "avgHumidity": 65,
-      "avgRainfall": 48,
-      "climateType": "Humid",
-      "sunlight": "Full",
-      "drainage": "Low"
-    },
-    {
-      "district": "Jalpaiguri",
-      "season": "Zaid",
-      "avgTemp": 24.3,
-      "avgHumidity": 68,
-      "avgRainfall": 36,
-      "climateType": "Subtropical",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Malda",
-      "season": "Kharif",
-      "avgTemp": 30.2,
-      "avgHumidity": 75,
-      "avgRainfall": 165,
-      "climateType": "Tropical",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Malda",
-      "season": "Rabi",
-      "avgTemp": 21.0,
-      "avgHumidity": 58,
-      "avgRainfall": 44,
-      "climateType": "Dry",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Malda",
-      "season": "Zaid",
-      "avgTemp": 25.8,
-      "avgHumidity": 60,
-      "avgRainfall": 39,
-      "climateType": "Semi-Arid",
-      "sunlight": "Full",
-      "drainage": "High"
-    },
-    {
-      "district": "Murshidabad",
-      "season": "Kharif",
-      "avgTemp": 29.8,
-      "avgHumidity": 77,
-      "avgRainfall": 170,
-      "climateType": "Humid",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Murshidabad",
-      "season": "Rabi",
-      "avgTemp": 20.5,
-      "avgHumidity": 55,
-      "avgRainfall": 42,
-      "climateType": "Moderate",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Murshidabad",
-      "season": "Zaid",
-      "avgTemp": 26.0,
-      "avgHumidity": 63,
-      "avgRainfall": 38,
-      "climateType": "Semi-Arid",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Birbhum",
-      "season": "Kharif",
-      "avgTemp": 30.5,
-      "avgHumidity": 70,
-      "avgRainfall": 160,
-      "climateType": "Tropical",
-      "sunlight": "Full",
-      "drainage": "High"
-    },
-    {
-      "district": "Birbhum",
-      "season": "Rabi",
-      "avgTemp": 21.5,
-      "avgHumidity": 53,
-      "avgRainfall": 40,
-      "climateType": "Dry",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Birbhum",
-      "season": "Zaid",
-      "avgTemp": 26.2,
-      "avgHumidity": 60,
-      "avgRainfall": 36,
-      "climateType": "Semi-Arid",
-      "sunlight": "Full",
-      "drainage": "High"
-    },
-    {
-      "district": "Bankura",
-      "season": "Kharif",
-      "avgTemp": 31.0,
-      "avgHumidity": 68,
-      "avgRainfall": 160,
-      "climateType": "Dry Tropical",
-      "sunlight": "Full",
-      "drainage": "High"
-    },
-    {
-      "district": "Bankura",
-      "season": "Rabi",
-      "avgTemp": 20.2,
-      "avgHumidity": 52,
-      "avgRainfall": 38,
-      "climateType": "Dry",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Bankura",
-      "season": "Zaid",
-      "avgTemp": 26.7,
-      "avgHumidity": 58,
-      "avgRainfall": 34,
-      "climateType": "Semi-Arid",
-      "sunlight": "Full",
-      "drainage": "High"
-    },
-    {
-      "district": "East Medinipur",
-      "season": "Kharif",
-      "avgTemp": 30.3,
-      "avgHumidity": 72,
-      "avgRainfall": 185,
-      "climateType": "Coastal",
-      "sunlight": "Full",
-      "drainage": "Low"
-    },
-    {
-      "district": "East Medinipur",
-      "season": "Rabi",
-      "avgTemp": 22.1,
-      "avgHumidity": 60,
-      "avgRainfall": 48,
-      "climateType": "Moderate",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "East Medinipur",
-      "season": "Zaid",
-      "avgTemp": 27.5,
-      "avgHumidity": 65,
-      "avgRainfall": 40,
-      "climateType": "Humid",
-      "sunlight": "Full",
-      "drainage": "Low"
-    },
-    {
-      "district": "West Medinipur",
-      "season": "Kharif",
-      "avgTemp": 30.8,
-      "avgHumidity": 70,
-      "avgRainfall": 178,
-      "climateType": "Tropical",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "West Medinipur",
-      "season": "Rabi",
-      "avgTemp": 21.4,
-      "avgHumidity": 56,
-      "avgRainfall": 42,
-      "climateType": "Moderate",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "West Medinipur",
-      "season": "Zaid",
-      "avgTemp": 26.9,
-      "avgHumidity": 62,
-      "avgRainfall": 36,
-      "climateType": "Humid",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "North 24 Parganas",
-      "season": "Kharif",
-      "avgTemp": 30.2,
-      "avgHumidity": 75,
-      "avgRainfall": 190,
-      "climateType": "Humid",
-      "sunlight": "Full",
-      "drainage": "Low"
-    },
-    {
-      "district": "North 24 Parganas",
-      "season": "Rabi",
-      "avgTemp": 22.5,
-      "avgHumidity": 63,
-      "avgRainfall": 55,
-      "climateType": "Moderate",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "North 24 Parganas",
-      "season": "Zaid",
-      "avgTemp": 28.0,
-      "avgHumidity": 67,
-      "avgRainfall": 42,
-      "climateType": "Humid",
-      "sunlight": "Full",
-      "drainage": "Low"
-    },
-    {
-      "district": "South 24 Parganas",
-      "season": "Kharif",
-      "avgTemp": 30.5,
-      "avgHumidity": 77,
-      "avgRainfall": 195,
-      "climateType": "Coastal",
-      "sunlight": "Full",
-      "drainage": "Low"
-    },
-    {
-      "district": "South 24 Parganas",
-      "season": "Rabi",
-      "avgTemp": 22.0,
-      "avgHumidity": 64,
-      "avgRainfall": 50,
-      "climateType": "Moderate",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "South 24 Parganas",
-      "season": "Zaid",
-      "avgTemp": 27.6,
-      "avgHumidity": 69,
-      "avgRainfall": 43,
-      "climateType": "Humid",
-      "sunlight": "Full",
-      "drainage": "Low"
-    },
-    {
-      "district": "Jalpaiguri",
-      "season": "Kharif",
-      "avgTemp": 28.9,
-      "avgHumidity": 80,
-      "avgRainfall": 220,
-      "climateType": "Subtropical",
-      "sunlight": "Partial",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Jalpaiguri",
-      "season": "Rabi",
-      "avgTemp": 19.5,
-      "avgHumidity": 70,
-      "avgRainfall": 60,
-      "climateType": "Cool",
-      "sunlight": "Partial",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Jalpaiguri",
-      "season": "Zaid",
-      "avgTemp": 24.0,
-      "avgHumidity": 73,
-      "avgRainfall": 48,
-      "climateType": "Humid",
-      "sunlight": "Partial",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Alipurduar",
-      "season": "Kharif",
-      "avgTemp": 29.5,
-      "avgHumidity": 85,
-      "avgRainfall": 240,
-      "climateType": "Humid Subtropical",
-      "sunlight": "Partial",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Alipurduar",
-      "season": "Rabi",
-      "avgTemp": 20.0,
-      "avgHumidity": 70,
-      "avgRainfall": 60,
-      "climateType": "Moderate",
-      "sunlight": "Partial",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Alipurduar",
-      "season": "Zaid",
-      "avgTemp": 25.8,
-      "avgHumidity": 75,
-      "avgRainfall": 50,
-      "climateType": "Humid",
-      "sunlight": "Partial",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Cooch Behar",
-      "season": "Kharif",
-      "avgTemp": 28.5,
-      "avgHumidity": 82,
-      "avgRainfall": 230,
-      "climateType": "Humid",
-      "sunlight": "Partial",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Cooch Behar",
-      "season": "Rabi",
-      "avgTemp": 19.0,
-      "avgHumidity": 68,
-      "avgRainfall": 55,
-      "climateType": "Cool",
-      "sunlight": "Partial",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Cooch Behar",
-      "season": "Zaid",
-      "avgTemp": 24.5,
-      "avgHumidity": 72,
-      "avgRainfall": 45,
-      "climateType": "Humid",
-      "sunlight": "Partial",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Darjeeling",
-      "season": "Kharif",
-      "avgTemp": 22.0,
-      "avgHumidity": 85,
-      "avgRainfall": 250,
-      "climateType": "Hill",
-      "sunlight": "Partial",
-      "drainage": "High"
-    },
-    {
-      "district": "Darjeeling",
-      "season": "Rabi",
-      "avgTemp": 14.5,
-      "avgHumidity": 70,
-      "avgRainfall": 75,
-      "climateType": "Cool",
-      "sunlight": "Partial",
-      "drainage": "High"
-    },
-    {
-      "district": "Darjeeling",
-      "season": "Zaid",
-      "avgTemp": 18.5,
-      "avgHumidity": 75,
-      "avgRainfall": 55,
-      "climateType": "Cool",
-      "sunlight": "Partial",
-      "drainage": "High"
-    },
-    {
-      "district": "Kalimpong",
-      "season": "Kharif",
-      "avgTemp": 23.0,
-      "avgHumidity": 80,
-      "avgRainfall": 230,
-      "climateType": "Hill",
-      "sunlight": "Partial",
-      "drainage": "High"
-    },
-    {
-      "district": "Kalimpong",
-      "season": "Rabi",
-      "avgTemp": 15.0,
-      "avgHumidity": 68,
-      "avgRainfall": 70,
-      "climateType": "Cool",
-      "sunlight": "Partial",
-      "drainage": "High"
-    },
-    {
-      "district": "Kalimpong",
-      "season": "Zaid",
-      "avgTemp": 19.0,
-      "avgHumidity": 72,
-      "avgRainfall": 55,
-      "climateType": "Cool",
-      "sunlight": "Partial",
-      "drainage": "High"
-    },
-    {
-      "district": "Malda",
-      "season": "Kharif",
-      "avgTemp": 30.0,
-      "avgHumidity": 83,
-      "avgRainfall": 215,
-      "climateType": "Humid Subtropical",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Malda",
-      "season": "Rabi",
-      "avgTemp": 19.5,
-      "avgHumidity": 65,
-      "avgRainfall": 50,
-      "climateType": "Moderate",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Malda",
-      "season": "Zaid",
-      "avgTemp": 26.5,
-      "avgHumidity": 70,
-      "avgRainfall": 45,
-      "climateType": "Humid",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Uttar Dinajpur",
-      "season": "Kharif",
-      "avgTemp": 29.2,
-      "avgHumidity": 82,
-      "avgRainfall": 225,
-      "climateType": "Humid",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Uttar Dinajpur",
-      "season": "Rabi",
-      "avgTemp": 18.8,
-      "avgHumidity": 66,
-      "avgRainfall": 60,
-      "climateType": "Cool",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    },
-    {
-      "district": "Uttar Dinajpur",
-      "season": "Zaid",
-      "avgTemp": 25.2,
-      "avgHumidity": 72,
-      "avgRainfall": 50,
-      "climateType": "Humid",
-      "sunlight": "Full",
-      "drainage": "Medium"
-    }
+  {
+    "district": "Purulia",
+    "season": "Kharif",
+    "avgTemp": 29.5,
+    "avgHumidity": 70,
+    "avgRainfall": 160,
+    "climateType": "Tropical",
+    "sunlight": "Full",
+    "drainage": "High"
+  },
+  {
+    "district": "Purulia",
+    "season": "Rabi",
+    "avgTemp": 20.3,
+    "avgHumidity": 50,
+    "avgRainfall": 32,
+    "climateType": "Dry",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Purulia",
+    "season": "Zaid",
+    "avgTemp": 25.2,
+    "avgHumidity": 55,
+    "avgRainfall": 27,
+    "climateType": "Semi-Arid",
+    "sunlight": "Full",
+    "drainage": "High"
+  },
+  {
+    "district": "Darjeeling",
+    "season": "Kharif",
+    "avgTemp": 23.0,
+    "avgHumidity": 85,
+    "avgRainfall": 180,
+    "climateType": "Hilly",
+    "sunlight": "Moderate",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Darjeeling",
+    "season": "Rabi",
+    "avgTemp": 14.5,
+    "avgHumidity": 68,
+    "avgRainfall": 50,
+    "climateType": "Hilly",
+    "sunlight": "Low",
+    "drainage": "Low"
+  },
+  {
+    "district": "Darjeeling",
+    "season": "Zaid",
+    "avgTemp": 18.0,
+    "avgHumidity": 72,
+    "avgRainfall": 40,
+    "climateType": "Hilly",
+    "sunlight": "Moderate",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Jalpaiguri",
+    "season": "Kharif",
+    "avgTemp": 28.5,
+    "avgHumidity": 88,
+    "avgRainfall": 200,
+    "climateType": "Humid",
+    "sunlight": "Moderate",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Jalpaiguri",
+    "season": "Rabi",
+    "avgTemp": 19.5,
+    "avgHumidity": 65,
+    "avgRainfall": 48,
+    "climateType": "Humid",
+    "sunlight": "Full",
+    "drainage": "Low"
+  },
+  {
+    "district": "Jalpaiguri",
+    "season": "Zaid",
+    "avgTemp": 24.3,
+    "avgHumidity": 68,
+    "avgRainfall": 36,
+    "climateType": "Subtropical",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Malda",
+    "season": "Kharif",
+    "avgTemp": 30.2,
+    "avgHumidity": 75,
+    "avgRainfall": 165,
+    "climateType": "Tropical",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Malda",
+    "season": "Rabi",
+    "avgTemp": 21.0,
+    "avgHumidity": 58,
+    "avgRainfall": 44,
+    "climateType": "Dry",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Malda",
+    "season": "Zaid",
+    "avgTemp": 25.8,
+    "avgHumidity": 60,
+    "avgRainfall": 39,
+    "climateType": "Semi-Arid",
+    "sunlight": "Full",
+    "drainage": "High"
+  },
+  {
+    "district": "Murshidabad",
+    "season": "Kharif",
+    "avgTemp": 29.8,
+    "avgHumidity": 77,
+    "avgRainfall": 170,
+    "climateType": "Humid",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Murshidabad",
+    "season": "Rabi",
+    "avgTemp": 20.5,
+    "avgHumidity": 55,
+    "avgRainfall": 42,
+    "climateType": "Moderate",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Murshidabad",
+    "season": "Zaid",
+    "avgTemp": 26.0,
+    "avgHumidity": 63,
+    "avgRainfall": 38,
+    "climateType": "Semi-Arid",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Birbhum",
+    "season": "Kharif",
+    "avgTemp": 30.5,
+    "avgHumidity": 70,
+    "avgRainfall": 160,
+    "climateType": "Tropical",
+    "sunlight": "Full",
+    "drainage": "High"
+  },
+  {
+    "district": "Birbhum",
+    "season": "Rabi",
+    "avgTemp": 21.5,
+    "avgHumidity": 53,
+    "avgRainfall": 40,
+    "climateType": "Dry",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Birbhum",
+    "season": "Zaid",
+    "avgTemp": 26.2,
+    "avgHumidity": 60,
+    "avgRainfall": 36,
+    "climateType": "Semi-Arid",
+    "sunlight": "Full",
+    "drainage": "High"
+  },
+  {
+    "district": "Bankura",
+    "season": "Kharif",
+    "avgTemp": 31.0,
+    "avgHumidity": 68,
+    "avgRainfall": 160,
+    "climateType": "Dry Tropical",
+    "sunlight": "Full",
+    "drainage": "High"
+  },
+  {
+    "district": "Bankura",
+    "season": "Rabi",
+    "avgTemp": 20.2,
+    "avgHumidity": 52,
+    "avgRainfall": 38,
+    "climateType": "Dry",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Bankura",
+    "season": "Zaid",
+    "avgTemp": 26.7,
+    "avgHumidity": 58,
+    "avgRainfall": 34,
+    "climateType": "Semi-Arid",
+    "sunlight": "Full",
+    "drainage": "High"
+  },
+  {
+    "district": "East Medinipur",
+    "season": "Kharif",
+    "avgTemp": 30.3,
+    "avgHumidity": 72,
+    "avgRainfall": 185,
+    "climateType": "Coastal",
+    "sunlight": "Full",
+    "drainage": "Low"
+  },
+  {
+    "district": "East Medinipur",
+    "season": "Rabi",
+    "avgTemp": 22.1,
+    "avgHumidity": 60,
+    "avgRainfall": 48,
+    "climateType": "Moderate",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "East Medinipur",
+    "season": "Zaid",
+    "avgTemp": 27.5,
+    "avgHumidity": 65,
+    "avgRainfall": 40,
+    "climateType": "Humid",
+    "sunlight": "Full",
+    "drainage": "Low"
+  },
+  {
+    "district": "West Medinipur",
+    "season": "Kharif",
+    "avgTemp": 30.8,
+    "avgHumidity": 70,
+    "avgRainfall": 178,
+    "climateType": "Tropical",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "West Medinipur",
+    "season": "Rabi",
+    "avgTemp": 21.4,
+    "avgHumidity": 56,
+    "avgRainfall": 42,
+    "climateType": "Moderate",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "West Medinipur",
+    "season": "Zaid",
+    "avgTemp": 26.9,
+    "avgHumidity": 62,
+    "avgRainfall": 36,
+    "climateType": "Humid",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "North 24 Parganas",
+    "season": "Kharif",
+    "avgTemp": 30.2,
+    "avgHumidity": 75,
+    "avgRainfall": 190,
+    "climateType": "Humid",
+    "sunlight": "Full",
+    "drainage": "Low"
+  },
+  {
+    "district": "North 24 Parganas",
+    "season": "Rabi",
+    "avgTemp": 22.5,
+    "avgHumidity": 63,
+    "avgRainfall": 55,
+    "climateType": "Moderate",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "North 24 Parganas",
+    "season": "Zaid",
+    "avgTemp": 28.0,
+    "avgHumidity": 67,
+    "avgRainfall": 42,
+    "climateType": "Humid",
+    "sunlight": "Full",
+    "drainage": "Low"
+  },
+  {
+    "district": "South 24 Parganas",
+    "season": "Kharif",
+    "avgTemp": 30.5,
+    "avgHumidity": 77,
+    "avgRainfall": 195,
+    "climateType": "Coastal",
+    "sunlight": "Full",
+    "drainage": "Low"
+  },
+  {
+    "district": "South 24 Parganas",
+    "season": "Rabi",
+    "avgTemp": 22.0,
+    "avgHumidity": 64,
+    "avgRainfall": 50,
+    "climateType": "Moderate",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "South 24 Parganas",
+    "season": "Zaid",
+    "avgTemp": 27.6,
+    "avgHumidity": 69,
+    "avgRainfall": 43,
+    "climateType": "Humid",
+    "sunlight": "Full",
+    "drainage": "Low"
+  },
+  {
+    "district": "Jalpaiguri",
+    "season": "Kharif",
+    "avgTemp": 28.9,
+    "avgHumidity": 80,
+    "avgRainfall": 220,
+    "climateType": "Subtropical",
+    "sunlight": "Partial",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Jalpaiguri",
+    "season": "Rabi",
+    "avgTemp": 19.5,
+    "avgHumidity": 70,
+    "avgRainfall": 60,
+    "climateType": "Cool",
+    "sunlight": "Partial",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Jalpaiguri",
+    "season": "Zaid",
+    "avgTemp": 24.0,
+    "avgHumidity": 73,
+    "avgRainfall": 48,
+    "climateType": "Humid",
+    "sunlight": "Partial",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Alipurduar",
+    "season": "Kharif",
+    "avgTemp": 29.5,
+    "avgHumidity": 85,
+    "avgRainfall": 240,
+    "climateType": "Humid Subtropical",
+    "sunlight": "Partial",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Alipurduar",
+    "season": "Rabi",
+    "avgTemp": 20.0,
+    "avgHumidity": 70,
+    "avgRainfall": 60,
+    "climateType": "Moderate",
+    "sunlight": "Partial",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Alipurduar",
+    "season": "Zaid",
+    "avgTemp": 25.8,
+    "avgHumidity": 75,
+    "avgRainfall": 50,
+    "climateType": "Humid",
+    "sunlight": "Partial",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Cooch Behar",
+    "season": "Kharif",
+    "avgTemp": 28.5,
+    "avgHumidity": 82,
+    "avgRainfall": 230,
+    "climateType": "Humid",
+    "sunlight": "Partial",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Cooch Behar",
+    "season": "Rabi",
+    "avgTemp": 19.0,
+    "avgHumidity": 68,
+    "avgRainfall": 55,
+    "climateType": "Cool",
+    "sunlight": "Partial",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Cooch Behar",
+    "season": "Zaid",
+    "avgTemp": 24.5,
+    "avgHumidity": 72,
+    "avgRainfall": 45,
+    "climateType": "Humid",
+    "sunlight": "Partial",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Darjeeling",
+    "season": "Kharif",
+    "avgTemp": 22.0,
+    "avgHumidity": 85,
+    "avgRainfall": 250,
+    "climateType": "Hill",
+    "sunlight": "Partial",
+    "drainage": "High"
+  },
+  {
+    "district": "Darjeeling",
+    "season": "Rabi",
+    "avgTemp": 14.5,
+    "avgHumidity": 70,
+    "avgRainfall": 75,
+    "climateType": "Cool",
+    "sunlight": "Partial",
+    "drainage": "High"
+  },
+  {
+    "district": "Darjeeling",
+    "season": "Zaid",
+    "avgTemp": 18.5,
+    "avgHumidity": 75,
+    "avgRainfall": 55,
+    "climateType": "Cool",
+    "sunlight": "Partial",
+    "drainage": "High"
+  },
+  {
+    "district": "Kalimpong",
+    "season": "Kharif",
+    "avgTemp": 23.0,
+    "avgHumidity": 80,
+    "avgRainfall": 230,
+    "climateType": "Hill",
+    "sunlight": "Partial",
+    "drainage": "High"
+  },
+  {
+    "district": "Kalimpong",
+    "season": "Rabi",
+    "avgTemp": 15.0,
+    "avgHumidity": 68,
+    "avgRainfall": 70,
+    "climateType": "Cool",
+    "sunlight": "Partial",
+    "drainage": "High"
+  },
+  {
+    "district": "Kalimpong",
+    "season": "Zaid",
+    "avgTemp": 19.0,
+    "avgHumidity": 72,
+    "avgRainfall": 55,
+    "climateType": "Cool",
+    "sunlight": "Partial",
+    "drainage": "High"
+  },
+  {
+    "district": "Malda",
+    "season": "Kharif",
+    "avgTemp": 30.0,
+    "avgHumidity": 83,
+    "avgRainfall": 215,
+    "climateType": "Humid Subtropical",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Malda",
+    "season": "Rabi",
+    "avgTemp": 19.5,
+    "avgHumidity": 65,
+    "avgRainfall": 50,
+    "climateType": "Moderate",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Malda",
+    "season": "Zaid",
+    "avgTemp": 26.5,
+    "avgHumidity": 70,
+    "avgRainfall": 45,
+    "climateType": "Humid",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Uttar Dinajpur",
+    "season": "Kharif",
+    "avgTemp": 29.2,
+    "avgHumidity": 82,
+    "avgRainfall": 225,
+    "climateType": "Humid",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Uttar Dinajpur",
+    "season": "Rabi",
+    "avgTemp": 18.8,
+    "avgHumidity": 66,
+    "avgRainfall": 60,
+    "climateType": "Cool",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  },
+  {
+    "district": "Uttar Dinajpur",
+    "season": "Zaid",
+    "avgTemp": 25.2,
+    "avgHumidity": 72,
+    "avgRainfall": 50,
+    "climateType": "Humid",
+    "sunlight": "Full",
+    "drainage": "Medium"
+  }
 ]
