@@ -32,7 +32,8 @@ class CropAdapter(private val crops: List<Crop>, private val weather: Weather) :
         // Set content descriptions for accessibility
         holder.binding.cropName.contentDescription = "Crop Name: ${crop.name}"
         holder.binding.MarketRate.contentDescription = "Market Rate: ₹${crop.rate} per quintal"
-        holder.binding.demandSupply.contentDescription = "Demand: ${crop.demand}, Supply: ${crop.supply}"
+        holder.binding.demandSupply.contentDescription =
+            "Demand: ${crop.demand}, Supply: ${crop.supply}"
 
         // Highlight top 3 crops
         val context = holder.itemView.context
@@ -48,8 +49,10 @@ class CropAdapter(private val crops: List<Crop>, private val weather: Weather) :
         holder.binding.soilType.text = "Soil: ${crop.soilType}"
 
         // Set content descriptions for expanded details
-        holder.binding.yieldRate.contentDescription = "Yield: ${crop.yieldPerHectare} tons per hectare"
-        holder.binding.tempRange.contentDescription = "Temperature Range: ${crop.tempMin}°C to ${crop.tempMax}°C"
+        holder.binding.yieldRate.contentDescription =
+            "Yield: ${crop.yieldPerHectare} tons per hectare"
+        holder.binding.tempRange.contentDescription =
+            "Temperature Range: ${crop.tempMin}°C to ${crop.tempMax}°C"
         holder.binding.soilType.contentDescription = "Soil Type: ${crop.soilType}"
 
         // Click to expand/collapse
