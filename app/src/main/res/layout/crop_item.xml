@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cropCard"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/cropCard"
     android:layout_marginBottom="8dp"
-    android:elevation="4dp"
-    android:background="#FAF3E0"> <!-- Soft cream background -->
+    android:background="#FAF3E0"
+    android:elevation="4dp"> <!-- Soft cream background -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,9 +19,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Crop Name"
+            android:textColor="#2E7D32"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="#2E7D32"/>
+            android:textStyle="bold" />
 
         <!-- Market Rate -->
         <TextView
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="₹0 per quintal"
-            android:textColor="#6D4C41"/>
+            android:textColor="#6D4C41" />
 
         <!-- Demand and Supply -->
         <TextView
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Demand: 0, Supply: 0"
-            android:textColor="#455A64"/>
+            android:textColor="#455A64" />
 
         <!-- Details Layout (Hidden Initially) -->
         <LinearLayout
@@ -53,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Yield: 0 t/ha"
-                android:textColor="#4E342E"/>
+                android:textColor="#4E342E" />
 
             <!-- Temperature Range -->
             <TextView
@@ -61,7 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Temp: 0°C - 0°C"
-                android:textColor="#0277BD"/>
+                android:textColor="#0277BD" />
 
             <!-- Soil Type -->
             <TextView
@@ -69,7 +69,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Soil: Loamy"
-                android:textColor="#8D6E63"/>
+                android:textColor="#8D6E63" />
         </LinearLayout>
     </LinearLayout>
 
