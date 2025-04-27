@@ -6,7 +6,7 @@ import android.os.Handler
 import android.os.Looper
 import android.view.animation.AlphaAnimation
 import androidx.appcompat.app.AppCompatActivity
-import com.example.krishaksathiandroid.databinding.ActivitySplashBinding   // <-- apne package hisab se import adjust kar lena
+import com.example.krishaksathiandroid.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
 
