@@ -4,12 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2C6B2F"> <!-- Farmer-based Hex Color (Dark Green) -->
-
-    <!-- App Logo -->
-
-    <!-- App Name (Krishak Sathi) -->
-
+    android:background="#2C6B2F">
     <ImageView
         android:id="@+id/logoImageView"
         android:layout_width="150dp"
@@ -21,9 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.223" />
-
-    <!-- Slogan -->
-
     <TextView
         android:id="@+id/appNameTextView"
         android:layout_width="wrap_content"
@@ -36,7 +28,6 @@
         app:layout_constraintBottom_toTopOf="@+id/sloganTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/sloganTextView"
         android:layout_width="wrap_content"
@@ -48,5 +39,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/appNameTextView"
         app:layout_constraintStart_toStartOf="@+id/appNameTextView" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
