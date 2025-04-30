@@ -43,4 +43,6 @@
     <string name="normal_crop_hi">सामान्य फसल</string>
     <string name="tap_to_expand_hi">विस्तार करने के लिए टैप करें</string>
     <string name="tap_to_collapse_hi">संकुचित करने के लिए टैप करें</string>
+    <string name="drawer_close" />
+    <string name="drawer_open" />
 </resources>
