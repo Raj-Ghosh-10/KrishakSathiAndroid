@@ -2,18 +2,9 @@ package com.example.krishaksathiandroid
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.krishaksathiandroid.databinding.ActivityMainBinding
-import com.example.krishaksathiandroid.model.Crop
-import com.example.krishaksathiandroid.model.Weather
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
-import java.io.InputStreamReader
-import kotlin.jvm.java
 
 class MainActivity : AppCompatActivity() {
 
@@ -42,11 +33,20 @@ class MainActivity : AppCompatActivity() {
         binding.navView.setNavigationItemSelectedListener { menuItem ->
             binding.drawerLayout.closeDrawers()
             when (menuItem.itemId) {
-                R.id.nav_crop -> startActivity(Intent(this, CropSuggetionActivity::class.java))
-                R.id.nav_weather -> startActivity(Intent(this, WeatherActivity::class.java))
-               // R.id.nav_feature3 -> startActivity(Intent(this, Feature3Activity::class.java))
+                R.id.nav_crop -> {
+                    startActivity(Intent(this, CropSuggetionActivity::class.java))
+                    true
+                }
+                // R.id.nav_weather -> {
+                //     startActivity(Intent(this, WeatherActivity::class.java))
+                //     true
+                // }
+                // R.id.nav_feature3 -> {
+                //     startActivity(Intent(this, Feature3Activity::class.java))
+                //     true
+                // }
+                else -> false
             }
-            true
         }
     }
 }
