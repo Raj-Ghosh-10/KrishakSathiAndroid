@@ -1,133 +1,117 @@
 package com.example.krishaksathiandroid
 
 import android.os.Bundle
+import android.view.View
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.krishaksathiandroid.databinding.ActivityCropSuggetionBinding
 import com.example.krishaksathiandroid.model.Crop
-import com.example.krishaksathiandroid.model.Weather
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import java.io.InputStreamReader
 
 class CropSuggetionActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityCropSuggetionBinding
+    private lateinit var cropList: List<Crop>
     private lateinit var cropAdapter: CropAdapter
-    private var allCrops: List<Crop> = emptyList()
+    private lateinit var binding: ActivityCropSuggetionBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Initialize view binding
         binding = ActivityCropSuggetionBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Load crop data
-        allCrops = loadCropData()
+        // Load crop data from the JSON file
+        loadCropData()
 
-        // Load weather data for the specific district and season
-        val weather =
-            loadWeatherData("Kolkata", "Rabi") // Initially load for a static district/season
-
-        // Set up the RecyclerView with an empty adapter initially
-        cropAdapter = CropAdapter(emptyList(), weather)
-        binding.recyclerView.layoutManager = LinearLayoutManager(this)
-        binding.recyclerView.adapter = cropAdapter
-
-        // Set up the Spinners with predefined values
-        setupSpinners()
-
-        // Filter button logic
-        binding.filterButton.setOnClickListener {
-            val selectedDistrict = binding.districtSpinner.selectedItem.toString()
-            val selectedSeason = binding.seasonSpinner.selectedItem.toString()
-            val selectedSoilType = binding.soilTypeSpinner.selectedItem.toString()
-
-            // Filter crops based on the selections
-            val filteredCrops = filterCrops(selectedDistrict, selectedSeason, selectedSoilType)
-
-            // Update the RecyclerView with the filtered crops
-            cropAdapter = CropAdapter(filteredCrops, weather)
-            binding.recyclerView.adapter = cropAdapter
-        }
-    }
-
-    private fun loadCropData(): List<Crop> {
-        val inputStream = resources.openRawResource(R.raw.crop)
-        val reader = InputStreamReader(inputStream)
-        val type = object : TypeToken<List<Crop>>() {}.type
-        return Gson().fromJson(reader, type)
-    }
-
-    private fun loadWeatherData(district: String, season: String): Weather {
-        try {
-            val inputStream =
-                resources.openRawResource(R.raw.weather) // Use R.raw.<filename> without the extension
-            val reader = InputStreamReader(inputStream)
-            val weatherData = Gson().fromJson(reader, Array<Weather>::class.java)
-            return weatherData.first { weather -> weather.district == district && weather.season == season }
-        } catch (e: Exception) {
-            e.printStackTrace()
-            throw e
-        }
-    }
-
-    private fun setupSpinners() {
-        // District Spinner setup
-        val districts = listOf(
-            "Kolkata", "Hooghly", "Howrah", "North 24 Parganas", "South 24 Parganas",
-            "Purba Medinipur", "Paschim Medinipur", "Burdwan", "Malda", "Murshidabad",
-            "Jalpaiguri", "Dakshin Dinajpur", "Uttar Dinajpur", "Nadia", "Cooch Behar"
-        )
+        // Set up Spinners (District and Season)
+        val districts = cropList.map { it.district }.distinct()
         val districtAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, districts)
         districtAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        binding.districtSpinner.adapter = districtAdapter
+        binding.spinnerDistrict.adapter = districtAdapter
 
-        // Season Spinner setup
-        val seasons = listOf("Rabi", "Kharif", "Zaid")
+        val seasons = cropList.map { it.season }.distinct()
         val seasonAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, seasons)
         seasonAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        binding.seasonSpinner.adapter = seasonAdapter
+        binding.spinnerSeason.adapter = seasonAdapter
 
-        // Soil Type Spinner setup
-        val soilTypes = listOf(
-            "Sandy",
-            "Loamy",
-            "Clay",
-            "Sandy-Loam",
-            "Clay-Loam",
-            "Alluvial",
-            "Red Soil",
-            "Black Soil"
-        )
-        val soilTypeAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, soilTypes)
-        soilTypeAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        binding.soilTypeSpinner.adapter = soilTypeAdapter
+        // Set up RecyclerView
+        binding.recyclerViewCrops.layoutManager = LinearLayoutManager(this)
+        cropAdapter = CropAdapter()
+        binding.recyclerViewCrops.adapter = cropAdapter
+
+        // Set listeners for spinners
+        binding.spinnerDistrict.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(
+                parent: AdapterView<*>,
+                view: View?,
+                position: Int,
+                id: Long
+            ) {
+                updateCropList()
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>) {
+                // Do nothing
+            }
+        }
+
+        binding.spinnerSeason.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(
+                parent: AdapterView<*>,
+                view: View?,
+                position: Int,
+                id: Long
+            ) {
+                updateCropList()
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>) {
+                // Do nothing
+            }
+        }
+
+        // Auto-select the first district and season for initial display
+        if (districts.isNotEmpty() && seasons.isNotEmpty()) {
+            binding.spinnerDistrict.setSelection(0)
+            binding.spinnerSeason.setSelection(0)
+            updateCropList()
+        }
     }
 
-    private fun filterCrops(district: String, season: String, soilType: String): List<Crop> {
-        val weather = loadWeatherData(district, season)
-        // Filter crops based on district, season, soil type, and weather matching
-        val filteredCrops = allCrops.filter { crop ->
-            // Match the weather requirements
-            val matchesWeather = crop.tempMin <= weather.avgTemp && crop.tempMax >= weather.avgTemp
-            val matchesDistrict = crop.season == season
-            val matchesSoilType = crop.soilType == soilType || soilType == "All"
+    private fun loadCropData() {
+        val inputStream = resources.openRawResource(R.raw.allcrop)  // ✅ Correct way to load raw file
+        val reader = InputStreamReader(inputStream)
+        val type = object : TypeToken<List<Crop>>() {}.type
+        cropList = Gson().fromJson(reader, type)
+        reader.close()  // ✅ Always good practice to close the reader
+    }
 
-            matchesDistrict && matchesSoilType && matchesWeather
+    private fun updateCropList() {
+        val selectedDistrict = binding.spinnerDistrict.selectedItem?.toString() ?: return
+        val selectedSeason = binding.spinnerSeason.selectedItem?.toString() ?: return
+
+        // Filter crops based on selected district and season
+        val filteredCrops = cropList.filter {
+            it.district == selectedDistrict && it.season == selectedSeason
         }
 
-        // Sort the crops based on demand (high demand, low supply)
-        val sortedCrops = filteredCrops.sortedByDescending { it.demand - it.supply }
+        // Sort crops by demand (high to low) and supply (low to high)
+        val sortedCrops = filteredCrops.sortedWith(
+            compareByDescending<Crop> { it.demand }
+                .thenBy { it.supply }
+        )
 
-        // Get the top 3 crops based on demand and supply (demand > supply)
-        val top3Crops = sortedCrops.take(3)
-
-        // Highlight the top 3 crops
+        // Highlight top 3 crops
         sortedCrops.forEachIndexed { index, crop ->
-            crop.isTopCrop = index < 3
+            crop.isTopCrop = index < 3  // ✅ Mark top 3 crops
         }
 
-        return sortedCrops
+        // Submit the full sorted list
+        cropAdapter.submitList(sortedCrops)
     }
 }
