@@ -1,6 +1,6 @@
 <resources>
     <!-- App Name -->
-    <string name="app_name">KrishakSathiAndroid</string>
+    <string name="app_name">কৃষক সাথী</string>
 
     <!-- Crop Information -->
     <string name="crop_name">Crop Name</string>
