@@ -1,32 +1,57 @@
-
 <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Main Content -->
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/appwall" />
+
+    <!-- Main Content Layer -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@android:color/transparent">
 
         <!-- Toolbar -->
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
+            app:title="@string/app_name"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-        <!-- You can add a welcome message or image -->
+        <!-- Welcome Text -->
+
+        <!-- Text Over Image (if you want extra layer) -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Welcome to Krishak Sathi"
             android:gravity="center"
-            android:textSize="20sp"
-            android:padding="20dp"/>
+            android:padding="20dp"
+            android:text="কৃষক সাথী অ্যাপে স্বাগতম"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textOverImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#80000000"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="আপনার কৃষি সঙ্গী"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <!-- You can add more content here -->
     </LinearLayout>
 
     <!-- Navigation Drawer -->
@@ -35,6 +60,9 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        app:itemTextColor="@color/white"
+        android:background="@mipmap/appwall"
         android:fitsSystemWindows="true"
         app:menu="@menu/drawer_menu" />
+
 </androidx.drawerlayout.widget.DrawerLayout>
