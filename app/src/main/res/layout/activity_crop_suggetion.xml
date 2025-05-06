@@ -10,12 +10,14 @@
         android:id="@+id/spinnerDistrict"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
         android:minHeight="48dp" />
 
     <!-- Season Dropdown -->
     <Spinner
         android:id="@+id/spinnerSeason"
         android:layout_width="match_parent"
+        android:backgroundTint="@color/colorPrimary"
         android:layout_height="wrap_content"
         android:minHeight="48dp" />
 
