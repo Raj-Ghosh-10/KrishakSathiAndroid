@@ -1,14 +1,53 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Crop Suggestion -->
     <item
         android:id="@+id/nav_crop"
         android:title="ফসলের পরামর্শ" />
 
+    <!-- Today's Weather -->
     <item
         android:id="@+id/nav_weather"
         android:title="আজকের আবহাওয়া" />
 
+    <!-- Market Price -->
     <item
         android:id="@+id/nav_market"
         android:title="বাজার দর" />
+
+    <!-- Live Weather-Based Crop Suggestions -->
+    <item
+        android:id="@+id/nav_live_weather_crop"
+        android:title="লাইভ আবহাওয়া ভিত্তিক ফসলের পরামর্শ" />
+
+    <!-- Crop Calendar View -->
+    <item
+        android:id="@+id/nav_crop_calendar"
+        android:title="ফসলের ক্যালেন্ডার" />
+
+    <!-- Auto Location Detection -->
+    <item
+        android:id="@+id/nav_auto_location"
+        android:title="অটো লোকেশন শনাক্তকরণ" />
+
+    <!-- Nearby Mandi/Market Locator -->
+    <item
+        android:id="@+id/nav_nearby_market"
+        android:title="কাছের বাজার লোকেটর" />
+
+    <!-- Farmer-to-Farmer Marketplace -->
+    <item
+        android:id="@+id/nav_farmer_marketplace"
+        android:title="কৃষক-টু-কৃষক মার্কেটপ্লেস" />
+
+    <!-- Government Schemes and Subsidies -->
+    <item
+        android:id="@+id/nav_govt_schemes"
+        android:title="সরকারি প্রকল্প ও ভর্তুকি" />
+
+    <!-- Crop Disease Detection -->
+    <item
+        android:id="@+id/nav_disease_detection"
+        android:title="ফসলের রোগ শনাক্তকরণ (ছবি)" />
+
 </menu>
