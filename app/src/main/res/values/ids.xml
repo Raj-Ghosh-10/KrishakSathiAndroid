@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="soilTypeSpinner" type="id" />
+    <item name="filterButton" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="districtSpinner" type="id" />
+    <item name="seasonSpinner" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="navView" type="id" />
+    <item name="drawerLayout" type="id" />
+    <item name="nav_live_weather_crop" type="id" />
+    <item name="nav_crop_calendar" type="id" />
+    <item name="nav_auto_location" type="id" />
+    <item name="nav_nearby_market" type="id" />
+    <item name="nav_farmer_marketplace" type="id" />
+    <item name="nav_govt_schemes" type="id" />
+    <item name="nav_disease_detection" type="id" />
+</resources>
