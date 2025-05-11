@@ -9,11 +9,9 @@
     <string name="temp_range">Temp: Range</string>
     <string name="soil_type">Soil Type</string>
     <string name="yield_rate">Yield Rate</string>
-
     <!-- Color labels -->
     <string name="top_crop">Top Crop</string>
     <string name="normal_crop">Normal Crop</string>
-
     <!-- Expand/Collapse Text -->
     <string name="tap_to_expand">Tap to expand</string>
     <string name="tap_to_collapse">Tap to collapse</string>
