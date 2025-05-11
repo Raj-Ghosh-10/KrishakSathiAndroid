@@ -4,7 +4,6 @@
     <item
         android:id="@+id/nav_crop"
         android:title="ফসলের পরামর্শ" />
-
     <!-- Today's Weather -->
     <item
         android:id="@+id/nav_weather"
