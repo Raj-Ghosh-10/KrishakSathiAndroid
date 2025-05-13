@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/rentEquipmentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কৃষি যন্ত্র ভাড়া দিন" /> <!-- Rent Equipment -->
+
+    <Button
+        android:id="@+id/takeEquipmentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কৃষি যন্ত্র ভাড়া নিন" /> <!-- Take Equipment on Rent -->
+
+    <Button
+        android:id="@+id/adminPanelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অ্যাডমিন প্যানেল" /> <!-- Admin Panel -->
+
+</LinearLayout>
