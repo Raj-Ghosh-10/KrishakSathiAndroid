@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/equipmentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="যন্ত্রের নাম" /> <!-- Equipment Name -->
+
+    <EditText
+        android:id="@+id/rentPerDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="প্রতিদিনের ভাড়া" /> <!-- Rent Per Day -->
+
+    <EditText
+        android:id="@+id/rentPerHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="প্রতি ঘণ্টার ভাড়া" /> <!-- Rent Per Hour -->
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="মালিকের নাম" /> <!-- Owner Name -->
+
+    <EditText
+        android:id="@+id/contactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ফোন নাম্বার" /> <!-- Contact Number -->
+
+    <Button
+        android:id="@+id/uploadImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ছবি আপলোড করুন" /> <!-- Upload Image -->
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সাবমিট করুন" /> <!-- Submit Button -->
+
+</LinearLayout>
