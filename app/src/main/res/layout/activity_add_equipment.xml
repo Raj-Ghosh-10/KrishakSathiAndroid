@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/equipmentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Equipment Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/rentPerDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rent per day"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/rentPerHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rent per hour"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/ownerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Owner Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/contactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/imageUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image URL"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>
