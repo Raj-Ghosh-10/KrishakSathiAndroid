@@ -31,7 +31,7 @@ class EquipmentOptionsActivity : AppCompatActivity() {
 
         // Admin Panel Button
         binding.adminPanelButton.setOnClickListener {
-            val intent = Intent(this, AdminEquipmentManagerActivity::class.java)
+            val intent = Intent(this, AdminPanelActivity::class.java)
             startActivity(intent)
         }
     }
