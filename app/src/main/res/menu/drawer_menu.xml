@@ -4,6 +4,9 @@
     <item
         android:id="@+id/nav_crop"
         android:title="ফসলের পরামর্শ" />
+    <item
+        android:id="@+id/Rent_Equipment"
+        android:title="চাষের যন্ত্রপাতি ভাড়া "/>
     <!-- Today's Weather -->
     <item
         android:id="@+id/nav_weather"
