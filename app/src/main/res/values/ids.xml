@@ -15,4 +15,11 @@
     <item name="nav_farmer_marketplace" type="id" />
     <item name="nav_govt_schemes" type="id" />
     <item name="nav_disease_detection" type="id" />
+    <item name="contactNumber" type="id" />
+    <item name="uploadImageButton" type="id" />
+    <item name="submitButton" type="id" />
+    <item name="userName" type="id" />
+    <item name="rentPerHour" type="id" />
+    <item name="rentPerDay" type="id" />
+    <item name="equipmentName" type="id" />
 </resources>
