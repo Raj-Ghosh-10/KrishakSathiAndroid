@@ -37,10 +37,10 @@ class MainActivity : AppCompatActivity() {
                     startActivity(Intent(this, CropSuggetionActivity::class.java))
                     true
                 }
-                // R.id.nav_weather -> {
-                //     startActivity(Intent(this, WeatherActivity::class.java))
-                //     true
-                // }
+                 R.id.Rent_Equipment -> {
+                     startActivity(Intent(this, EquipmentOptionsActivity::class.java))
+                     true
+                 }
                 // R.id.nav_feature3 -> {
                 //     startActivity(Intent(this, Feature3Activity::class.java))
                 //     true
