@@ -21,7 +21,7 @@ class AddEquipmentActivity : AppCompatActivity() {
             val rentPerHour = binding.rentPerHour.text.toString().toInt()
             val ownerName = binding.ownerName.text.toString()
             val contactNumber = binding.contactNumber.text.toString()
-            val imageUrl = binding.imageUrl.text.toString()
+            val imageUrl = binding.uploadImageButton.text.toString()
 
             val equipment = Equipment(name, rentPerDay, rentPerHour, ownerName, contactNumber, imageUrl)
 
