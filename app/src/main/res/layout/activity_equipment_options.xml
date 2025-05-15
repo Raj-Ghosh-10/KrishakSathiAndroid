@@ -3,24 +3,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F1F8E9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="স্বাগতম কৃষক বন্ধু!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginBottom="24dp" />
 
     <Button
         android:id="@+id/rentEquipmentButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="কৃষি যন্ত্র ভাড়া দিন" /> <!-- Rent Equipment -->
+        android:text="কৃষি যন্ত্র ভাড়া দিন"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#66BB6A"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/takeEquipmentButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="কৃষি যন্ত্র ভাড়া নিন" /> <!-- Take Equipment on Rent -->
+        android:text="কৃষি যন্ত্র ভাড়া নিন"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#388E3C"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/adminPanelButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="অ্যাডমিন প্যানেল" /> <!-- Admin Panel -->
+        android:text="অ্যাডমিন প্যানেল"
+        android:textSize="18sp"
+        android:backgroundTint="#2E7D32"
+        android:textColor="#FFFFFF" />
 
 </LinearLayout>
+
