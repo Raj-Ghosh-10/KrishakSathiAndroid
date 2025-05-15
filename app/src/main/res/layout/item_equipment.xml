@@ -1,36 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="8dp"
-    android:layout_marginBottom="8dp"
-    android:background="?android:attr/selectableItemBackground">
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="4dp"
+    card_view:cardBackgroundColor="#FFFFFF">
 
-    <TextView
-        android:id="@+id/equipmentName"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Equipment Name"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <TextView
-        android:id="@+id/rentPerDay"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Rent per day: 100₹" />
+        <TextView
+            android:id="@+id/equipmentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="যন্ত্রপাতির নাম"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32" />
 
-    <TextView
-        android:id="@+id/rentPerHour"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Rent per hour: 50₹" />
+        <TextView
+            android:id="@+id/rentPerDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="প্রতি দিনের ভাড়া: ₹১০০"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            android:textColor="#555555" />
 
-    <TextView
-        android:id="@+id/ownerName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Owner: John Doe" />
+        <TextView
+            android:id="@+id/rentPerHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="প্রতি ঘণ্টার ভাড়া: ₹৫০"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:textColor="#555555" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/ownerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="মালিক: জন দা"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:textColor="#777777" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
