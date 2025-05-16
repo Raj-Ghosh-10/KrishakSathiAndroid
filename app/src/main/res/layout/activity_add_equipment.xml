@@ -7,26 +7,26 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:padding="24dp"
-        android:gravity="center_horizontal">
+        android:padding="24dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="কৃষি যন্ত্রপাতি ভাড়া ফর্ম"
-            android:textSize="22sp"
-            android:textStyle="bold"
             android:layout_marginBottom="16dp"
-            android:textColor="#2E7D32" />
+            android:text="কৃষি যন্ত্রপাতি ভাড়া ফর্ম"
+            android:textColor="#2E7D32"
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/equipmentName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
             android:hint="যন্ত্রের নাম লিখুন"
             android:minHeight="48dp"
-            android:background="@drawable/rounded_edittext"
             android:padding="12dp"
             android:textSize="16sp" />
 
@@ -34,11 +34,11 @@
             android:id="@+id/rentPerDay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_edittext"
             android:hint="প্রতি দিনে ভাড়া "
             android:inputType="number"
             android:minHeight="48dp"
-            android:layout_marginTop="12dp"
-            android:background="@drawable/rounded_edittext"
             android:padding="12dp"
             android:textSize="16sp" />
 
@@ -46,11 +46,11 @@
             android:id="@+id/rentPerHour"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_edittext"
             android:hint="প্রতি ঘণ্টায় ভাড়া "
             android:inputType="number"
             android:minHeight="48dp"
-            android:layout_marginTop="12dp"
-            android:background="@drawable/rounded_edittext"
             android:padding="12dp"
             android:textSize="16sp" />
 
@@ -58,10 +58,10 @@
             android:id="@+id/ownerName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="মালিকের নাম"
-            android:minHeight="48dp"
             android:layout_marginTop="12dp"
             android:background="@drawable/rounded_edittext"
+            android:hint="মালিকের নাম"
+            android:minHeight="48dp"
             android:padding="12dp"
             android:textSize="16sp" />
 
@@ -69,11 +69,11 @@
             android:id="@+id/contactNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_edittext"
             android:hint="মোবাইল নম্বর"
             android:inputType="phone"
             android:minHeight="48dp"
-            android:layout_marginTop="12dp"
-            android:background="@drawable/rounded_edittext"
             android:padding="12dp"
             android:textSize="16sp" />
 
@@ -81,18 +81,18 @@
             android:id="@+id/uploadImageButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ছবি আপলোড করুন"
             android:layout_marginTop="16dp"
             android:backgroundTint="#4CAF50"
+            android:text="ছবি আপলোড করুন"
             android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/submitButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="জমা দিন"
             android:layout_marginTop="16dp"
             android:backgroundTint="#2E7D32"
+            android:text="জমা দিন"
             android:textColor="#FFFFFF" />
 
     </LinearLayout>
