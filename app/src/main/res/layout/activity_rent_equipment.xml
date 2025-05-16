@@ -13,83 +13,83 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:text="নতুন যন্ত্র যুক্ত করুন"
-            android:textSize="22sp"
-            android:textStyle="bold"
             android:textColor="#2E7D32"
-            android:layout_marginBottom="20dp" />
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/equipmentName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="যন্ত্রের নাম"
-            android:textSize="16sp"
-            android:padding="12dp"
+            android:layout_marginBottom="12dp"
             android:background="@android:drawable/edit_text"
-            android:layout_marginBottom="12dp" />
+            android:hint="যন্ত্রের নাম"
+            android:padding="12dp"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/rentPerDay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@android:drawable/edit_text"
             android:hint="প্রতিদিনের ভাড়া :"
             android:inputType="number"
-            android:textSize="16sp"
             android:padding="12dp"
-            android:background="@android:drawable/edit_text"
-            android:layout_marginBottom="12dp" />
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/rentPerHour"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@android:drawable/edit_text"
             android:hint="প্রতি ঘণ্টার ভাড়া :"
             android:inputType="number"
-            android:textSize="16sp"
             android:padding="12dp"
-            android:background="@android:drawable/edit_text"
-            android:layout_marginBottom="12dp" />
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/userName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="মালিকের নাম"
-            android:textSize="16sp"
-            android:padding="12dp"
+            android:layout_marginBottom="12dp"
             android:background="@android:drawable/edit_text"
-            android:layout_marginBottom="12dp" />
+            android:hint="মালিকের নাম"
+            android:padding="12dp"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/contactNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@android:drawable/edit_text"
             android:hint="ফোন নাম্বার"
             android:inputType="phone"
-            android:textSize="16sp"
             android:padding="12dp"
-            android:background="@android:drawable/edit_text"
-            android:layout_marginBottom="12dp" />
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/uploadImageButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ছবি আপলোড করুন"
-            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
             android:backgroundTint="#66BB6A"
+            android:text="ছবি আপলোড করুন"
             android:textColor="#FFFFFF"
-            android:layout_marginBottom="16dp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/submitButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="সাবমিট করুন"
-            android:textSize="18sp"
             android:backgroundTint="#388E3C"
-            android:textColor="#FFFFFF" />
+            android:text="সাবমিট করুন"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
 
     </LinearLayout>
 </ScrollView>
