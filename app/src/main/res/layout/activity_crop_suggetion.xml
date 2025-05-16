@@ -17,8 +17,8 @@
     <Spinner
         android:id="@+id/spinnerSeason"
         android:layout_width="match_parent"
-        android:backgroundTint="@color/colorPrimary"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
         android:minHeight="48dp" />
 
     <!-- RecyclerView for Crop Suggestions -->
@@ -26,5 +26,5 @@
         android:id="@+id/recyclerViewCrops"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp" />
 </LinearLayout>
