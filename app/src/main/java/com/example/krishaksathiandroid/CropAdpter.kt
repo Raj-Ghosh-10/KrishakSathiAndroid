@@ -30,7 +30,8 @@ class CropAdapter : RecyclerView.Adapter<CropAdapter.CropViewHolder>() {
 
         holder.binding.textViewDetails.text = "বিস্তারিত:- ${crop.details}"
 
-        holder.binding.textViewFertilizerRecommendation.text = "সার পরামর্শ:- ${crop.fertilizer_recommendation}"
+        holder.binding.textViewFertilizerRecommendation.text =
+            "সার পরামর্শ:- ${crop.fertilizer_recommendation}"
 
         holder.binding.textViewSoilType.text = "মাটির ধরন:- ${crop.soil_type}"
 
@@ -43,7 +44,8 @@ class CropAdapter : RecyclerView.Adapter<CropAdapter.CropViewHolder>() {
         holder.binding.textViewRiskNotes.text = "সতর্কতা:- ${crop.risk_notes}"
 
         // Show/hide extra details based on isExpanded
-        holder.binding.layoutExtraDetails.visibility = if (crop.isExpanded) View.VISIBLE else View.GONE
+        holder.binding.layoutExtraDetails.visibility =
+            if (crop.isExpanded) View.VISIBLE else View.GONE
 
         // Highlight top 3 crops
         if (crop.isTopCrop) {
