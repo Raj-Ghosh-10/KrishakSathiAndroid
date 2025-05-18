@@ -45,20 +45,21 @@ class CropSuggetionActivity : AppCompatActivity() {
         binding.recyclerViewCrops.adapter = cropAdapter
 
         // Set listeners for spinners
-        binding.spinnerDistrict.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(
-                parent: AdapterView<*>,
-                view: View?,
-                position: Int,
-                id: Long
-            ) {
-                updateCropList()
-            }
+        binding.spinnerDistrict.onItemSelectedListener =
+            object : AdapterView.OnItemSelectedListener {
+                override fun onItemSelected(
+                    parent: AdapterView<*>,
+                    view: View?,
+                    position: Int,
+                    id: Long
+                ) {
+                    updateCropList()
+                }
 
-            override fun onNothingSelected(parent: AdapterView<*>) {
-                // Do nothing
+                override fun onNothingSelected(parent: AdapterView<*>) {
+                    // Do nothing
+                }
             }
-        }
 
         binding.spinnerSeason.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
@@ -84,7 +85,8 @@ class CropSuggetionActivity : AppCompatActivity() {
     }
 
     private fun loadCropData() {
-        val inputStream = resources.openRawResource(R.raw.allcrop)  // ✅ Correct way to load raw file
+        val inputStream =
+            resources.openRawResource(R.raw.allcrop)  // ✅ Correct way to load raw file
         val reader = InputStreamReader(inputStream)
         val type = object : TypeToken<List<Crop>>() {}.type
         cropList = Gson().fromJson(reader, type)
