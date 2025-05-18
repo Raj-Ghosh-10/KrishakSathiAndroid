@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
+    card_view:cardBackgroundColor="#FFFFFF"
     card_view:cardCornerRadius="12dp"
-    card_view:cardElevation="4dp"
-    card_view:cardBackgroundColor="#FFFFFF">
+    card_view:cardElevation="4dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,36 +19,36 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="যন্ত্রপাতির নাম"
+            android:textColor="#2E7D32"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="#2E7D32" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/rentPerDay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="প্রতি দিনের ভাড়া: ₹১০০"
-            android:textSize="15sp"
             android:layout_marginTop="4dp"
-            android:textColor="#555555" />
+            android:text="প্রতি দিনের ভাড়া: ₹১০০"
+            android:textColor="#555555"
+            android:textSize="15sp" />
 
         <TextView
             android:id="@+id/rentPerHour"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="প্রতি ঘণ্টার ভাড়া: ₹৫০"
-            android:textSize="15sp"
             android:layout_marginTop="2dp"
-            android:textColor="#555555" />
+            android:text="প্রতি ঘণ্টার ভাড়া: ₹৫০"
+            android:textColor="#555555"
+            android:textSize="15sp" />
 
         <TextView
             android:id="@+id/ownerName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="মালিক: জন দা"
-            android:textSize="15sp"
             android:layout_marginTop="2dp"
-            android:textColor="#777777" />
+            android:text="মালিক: জন দা"
+            android:textColor="#777777"
+            android:textSize="15sp" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
