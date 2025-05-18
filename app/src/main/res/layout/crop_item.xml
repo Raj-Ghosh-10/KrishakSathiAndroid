@@ -3,11 +3,11 @@
     android:id="@+id/cropCard"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:background="@color/colorPrimary"
+    android:layout_gravity="center"
     android:layout_marginBottom="16dp"
-    android:layout_gravity="center">
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <!-- Crop Name -->
     <TextView
@@ -15,8 +15,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ফসলের নাম:-"
-        android:textSize="20sp"
         android:textColor="#000000"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <!-- Price -->
@@ -25,8 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="বাজার মূল্য:- ₹0"
-        android:textSize="16sp"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:textSize="16sp" />
 
     <!-- Demand -->
     <TextView
@@ -34,8 +34,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="চাহিদা:- 0"
-        android:textSize="16sp"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:textSize="16sp" />
 
     <!-- Supply -->
     <TextView
@@ -43,8 +43,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="জোগান:- 0"
-        android:textSize="16sp"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:textSize="16sp" />
 
     <!-- Extra Details Section (Initially Hidden) -->
     <LinearLayout
@@ -52,8 +52,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:visibility="gone"
-        android:paddingTop="8dp">
+        android:paddingTop="8dp"
+        android:visibility="gone">
 
         <!-- Detailed Section Header -->
         <TextView
@@ -61,8 +61,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="বিস্তারিত:-"
-            android:textSize="18sp"
             android:textColor="#388E3C"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <!-- Fertilizer Recommendation -->
@@ -71,8 +71,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="সার পরামর্শ:- "
-            android:textSize="16sp"
-            android:textColor="#2E7D32" />
+            android:textColor="#2E7D32"
+            android:textSize="16sp" />
 
         <!-- Soil Type -->
         <TextView
@@ -80,8 +80,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="মাটির ধরন:- "
-            android:textSize="16sp"
-            android:textColor="#2E7D32" />
+            android:textColor="#2E7D32"
+            android:textSize="16sp" />
 
         <!-- Cultivation Method -->
         <TextView
@@ -89,8 +89,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="চাষের পদ্ধতি:- "
-            android:textSize="16sp"
-            android:textColor="#2E7D32" />
+            android:textColor="#2E7D32"
+            android:textSize="16sp" />
 
         <!-- Water Needs -->
         <TextView
@@ -98,8 +98,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="সেচের প্রয়োজন:- "
-            android:textSize="16sp"
-            android:textColor="#2E7D32" />
+            android:textColor="#2E7D32"
+            android:textSize="16sp" />
 
         <!-- Harvest Time -->
         <TextView
@@ -107,8 +107,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="ফসল কাটার সময়:- "
-            android:textSize="16sp"
-            android:textColor="#2E7D32" />
+            android:textColor="#2E7D32"
+            android:textSize="16sp" />
 
         <!-- Risk Notes -->
         <TextView
@@ -116,8 +116,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="সতর্কতা:- "
-            android:textSize="16sp"
-            android:textColor="#D32F2F" />
+            android:textColor="#D32F2F"
+            android:textSize="16sp" />
 
         <!-- Add more details if needed -->
 
