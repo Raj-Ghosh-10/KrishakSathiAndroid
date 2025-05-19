@@ -22,7 +22,8 @@ class EquipmentAdapter(private val onItemClick: (Equipment) -> Unit) :
     ListAdapter<Equipment, EquipmentAdapter.EquipmentViewHolder>(EquipmentDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EquipmentViewHolder {
-        val binding = ItemEquipmentBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding =
+            ItemEquipmentBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return EquipmentViewHolder(binding)
     }
 
