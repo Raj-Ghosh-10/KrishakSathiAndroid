@@ -15,14 +15,15 @@ class RentEquipmentActivity : AppCompatActivity() {
     private var imageUri: Uri? = null
 
     // New Activity Result API
-    private val pickImageLauncher = registerForActivityResult(ActivityResultContracts.GetContent()) { uri: Uri? ->
-        if (uri != null) {
-            imageUri = uri
-            Toast.makeText(this, "Image Selected!", Toast.LENGTH_SHORT).show()
-        } else {
-            Toast.makeText(this, "No image selected", Toast.LENGTH_SHORT).show()
+    private val pickImageLauncher =
+        registerForActivityResult(ActivityResultContracts.GetContent()) { uri: Uri? ->
+            if (uri != null) {
+                imageUri = uri
+                Toast.makeText(this, "Image Selected!", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "No image selected", Toast.LENGTH_SHORT).show()
+            }
         }
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,8 +54,13 @@ class RentEquipmentActivity : AppCompatActivity() {
 
         // Basic validation
         if (equipmentName.isEmpty() || rentPerDay.isEmpty() || rentPerHour.isEmpty() ||
-            ownerName.isEmpty() || contactNumber.isEmpty() || imageUri == null) {
-            Toast.makeText(this, "Please fill in all fields and select an image", Toast.LENGTH_SHORT).show()
+            ownerName.isEmpty() || contactNumber.isEmpty() || imageUri == null
+        ) {
+            Toast.makeText(
+                this,
+                "Please fill in all fields and select an image",
+                Toast.LENGTH_SHORT
+            ).show()
             return
         }
 
@@ -88,7 +94,11 @@ class RentEquipmentActivity : AppCompatActivity() {
                         .collection("equipment_rentals")
                         .add(equipmentData)
                         .addOnSuccessListener {
-                            Toast.makeText(this, "Equipment added successfully!", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(
+                                this,
+                                "Equipment added successfully!",
+                                Toast.LENGTH_SHORT
+                            ).show()
                             finish()
                         }
                         .addOnFailureListener { e ->
@@ -96,7 +106,8 @@ class RentEquipmentActivity : AppCompatActivity() {
                         }
                 }
             }.addOnFailureListener {
-                Toast.makeText(this, "Image upload failed: ${it.message}", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Image upload failed: ${it.message}", Toast.LENGTH_SHORT)
+                    .show()
             }
         }
     }
