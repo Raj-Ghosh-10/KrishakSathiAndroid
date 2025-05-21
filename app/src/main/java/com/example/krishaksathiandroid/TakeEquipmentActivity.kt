@@ -45,7 +45,11 @@ class TakeEquipmentActivity : AppCompatActivity() {
                 equipmentAdapter.submitList(equipmentList)
             }
             .addOnFailureListener { exception ->
-                Toast.makeText(this, "Error fetching data: ${exception.message}", Toast.LENGTH_SHORT).show()
+                Toast.makeText(
+                    this,
+                    "Error fetching data: ${exception.message}",
+                    Toast.LENGTH_SHORT
+                ).show()
             }
     }
 }
