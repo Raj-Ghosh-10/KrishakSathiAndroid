@@ -1,8 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
+    <!-- Base application theme -->
     <style name="Base.Theme.KrishakSathiAndroid" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
+        <!-- This sets the base theme to Material 3 with Day/Night support and no default ActionBar -->
+
+        <!-- Customize your light theme here -->
         <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Primary color used throughout the app, defined in colors.xml (e.g., #4CAF50 - green) -->
     </style>
+
+    <!-- Final application theme that inherits from the base theme -->
     <style name="Theme.KrishakSathiAndroid" parent="Base.Theme.KrishakSathiAndroid" />
+    <!-- This is the theme you apply in your AndroidManifest.xml or styles.xml -->
 </resources>
