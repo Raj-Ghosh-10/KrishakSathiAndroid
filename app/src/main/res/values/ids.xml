@@ -1,25 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Spinner to select soil type -->
     <item name="soilTypeSpinner" type="id" />
+
+    <!-- Button to apply filters based on selection -->
     <item name="filterButton" type="id" />
+
+    <!-- RecyclerView to display list of crops or results -->
     <item name="recyclerView" type="id" />
+
+    <!-- Spinner to select district -->
     <item name="districtSpinner" type="id" />
+
+    <!-- Spinner to select season -->
     <item name="seasonSpinner" type="id" />
+
+    <!-- Toolbar for app title and actions -->
     <item name="toolbar" type="id" />
+
+    <!-- Navigation view for drawer menu items -->
     <item name="navView" type="id" />
+
+    <!-- Drawer layout for navigation drawer support -->
     <item name="drawerLayout" type="id" />
+
+    <!-- Navigation item for live weather-based crop suggestions -->
     <item name="nav_live_weather_crop" type="id" />
+
+    <!-- Navigation item for crop calendar -->
     <item name="nav_crop_calendar" type="id" />
+
+    <!-- Navigation item for automatic location detection -->
     <item name="nav_auto_location" type="id" />
+
+    <!-- Navigation item for finding nearby markets -->
     <item name="nav_nearby_market" type="id" />
+
+    <!-- Navigation item for accessing farmer marketplace -->
     <item name="nav_farmer_marketplace" type="id" />
+
+    <!-- Navigation item for viewing government schemes -->
     <item name="nav_govt_schemes" type="id" />
+
+    <!-- Navigation item for crop disease detection feature -->
     <item name="nav_disease_detection" type="id" />
+
+    <!-- Input field or label for entering contact number -->
     <item name="contactNumber" type="id" />
+
+    <!-- Button for uploading images (e.g., for equipment or crops) -->
     <item name="uploadImageButton" type="id" />
+
+    <!-- Button to submit a form or input -->
     <item name="submitButton" type="id" />
+
+    <!-- Input field or display for user name -->
     <item name="userName" type="id" />
+
+    <!-- Input field or label for rent per hour (used in equipment rental) -->
     <item name="rentPerHour" type="id" />
+
+    <!-- Input field or label for rent per day (used in equipment rental) -->
     <item name="rentPerDay" type="id" />
+
+    <!-- Input field or label for entering equipment name -->
     <item name="equipmentName" type="id" />
 </resources>
