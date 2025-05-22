@@ -1,22 +1,24 @@
 <resources>
     <!-- App Name -->
-    <string name="app_name">কৃষক সাথী</string>
+    <string name="app_name">কৃষক সাথী</string> <!-- Bengali name: Krishak Sathi -->
 
-    <!-- Crop Information -->
+    <!-- Crop Information Labels in English -->
     <string name="crop_name">Crop Name</string>
     <string name="market_rate">₹ Market Rate</string>
     <string name="demand_supply">Demand and Supply</string>
     <string name="temp_range">Temp: Range</string>
     <string name="soil_type">Soil Type</string>
     <string name="yield_rate">Yield Rate</string>
-    <!-- Color labels -->
-    <string name="top_crop">Top Crop</string>
-    <string name="normal_crop">Normal Crop</string>
-    <!-- Expand/Collapse Text -->
-    <string name="tap_to_expand">Tap to expand</string>
-    <string name="tap_to_collapse">Tap to collapse</string>
 
-    <!-- Bengali Translations -->
+    <!-- Crop Highlight Tags -->
+    <string name="top_crop">Top Crop</string>         <!-- Used to mark crops with high demand -->
+    <string name="normal_crop">Normal Crop</string>   <!-- Used to mark other crops -->
+
+    <!-- UI Instructional Text -->
+    <string name="tap_to_expand">Tap to expand</string>         <!-- For collapsible cards -->
+    <string name="tap_to_collapse">Tap to collapse</string>     <!-- For collapsible cards -->
+
+    <!-- Bengali Translations (suffix `_bn`) -->
     <string name="app_name_bn">কৃষক সাথী</string>
     <string name="crop_name_bn">ফসলের নাম</string>
     <string name="market_rate_bn">₹ বাজার মূল্য</string>
@@ -29,7 +31,7 @@
     <string name="tap_to_expand_bn">বিস্তার করতে ট্যাপ করুন</string>
     <string name="tap_to_collapse_bn">সঙ্কুচিত করতে ট্যাপ করুন</string>
 
-    <!-- Hindi Translations -->
+    <!-- Hindi Translations (suffix `_hi`) -->
     <string name="app_name_hi">कृषक साथी</string>
     <string name="crop_name_hi">फसल का नाम</string>
     <string name="market_rate_hi">₹ बाजार दर</string>
@@ -41,6 +43,8 @@
     <string name="normal_crop_hi">सामान्य फसल</string>
     <string name="tap_to_expand_hi">विस्तार करने के लिए टैप करें</string>
     <string name="tap_to_collapse_hi">संकुचित करने के लिए टैप करें</string>
-    <string name="drawer_close" />
-    <string name="drawer_open" />
+
+    <!-- Drawer content accessibility strings (optional, for screen readers) -->
+    <string name="drawer_close" /> <!-- This should have a value like "Close navigation drawer" -->
+    <string name="drawer_open" />  <!-- This should have a value like "Open navigation drawer" -->
 </resources>
