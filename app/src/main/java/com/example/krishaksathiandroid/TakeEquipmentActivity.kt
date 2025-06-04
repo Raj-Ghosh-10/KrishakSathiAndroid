@@ -19,12 +19,10 @@ class TakeEquipmentActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityTakeEquipmentBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         equipmentAdapter = EquipmentAdapter { equipment ->
             val intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:${equipment.contactNumber}"))
             startActivity(intent)
         }
-
         binding.equipmentRecyclerView.layoutManager = LinearLayoutManager(this)
         binding.equipmentRecyclerView.adapter = equipmentAdapter
 
