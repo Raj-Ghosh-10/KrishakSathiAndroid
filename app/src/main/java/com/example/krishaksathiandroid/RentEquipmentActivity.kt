@@ -71,7 +71,6 @@ class RentEquipmentActivity : AppCompatActivity() {
             Toast.makeText(this, "Enter valid rent values", Toast.LENGTH_SHORT).show()
             return
         }
-
         // Upload image to Firebase Storage
         val storageRef = FirebaseStorage.getInstance().reference
             .child("equipment_images/${System.currentTimeMillis()}.jpg")
