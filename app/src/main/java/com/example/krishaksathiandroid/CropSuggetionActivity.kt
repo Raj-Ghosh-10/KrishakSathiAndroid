@@ -83,7 +83,6 @@ class CropSuggetionActivity : AppCompatActivity() {
             updateCropList()
         }
     }
-
     private fun loadCropData() {
         val inputStream =
             resources.openRawResource(R.raw.allcrop)  // ✅ Correct way to load raw file
