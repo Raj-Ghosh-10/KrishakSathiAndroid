@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
 
         // ✅ Toolbar setup
         setSupportActionBar(binding.toolbar)
-
         // ✅ Drawer Toggle
         drawerToggle = ActionBarDrawerToggle(
             this, binding.drawerLayout, binding.toolbar,
