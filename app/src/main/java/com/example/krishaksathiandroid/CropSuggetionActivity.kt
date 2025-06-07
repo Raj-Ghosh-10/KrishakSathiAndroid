@@ -110,7 +110,6 @@ class CropSuggetionActivity : AppCompatActivity() {
         sortedCrops.forEachIndexed { index, crop ->
             crop.isTopCrop = index < 3  // ✅ Mark top 3 crops
         }
-
         // Submit the full sorted list
         cropAdapter.submitList(sortedCrops)
     }
