@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
                     startActivity(Intent(this, CropSuggetionActivity::class.java))
                     true
                 }
+
                 R.id.Rent_Equipment -> {
                     startActivity(Intent(this, EquipmentOptionsActivity::class.java))
                     true
