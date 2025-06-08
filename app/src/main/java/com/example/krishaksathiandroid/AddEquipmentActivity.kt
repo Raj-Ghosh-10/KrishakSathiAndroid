@@ -23,7 +23,8 @@ class AddEquipmentActivity : AppCompatActivity() {
             val contactNumber = binding.contactNumber.text.toString()
             val imageUrl = binding.uploadImageButton.text.toString()
 
-            val equipment = Equipment(name, rentPerDay, rentPerHour, ownerName, contactNumber, imageUrl)
+            val equipment =
+                Equipment(name, rentPerDay, rentPerHour, ownerName, contactNumber, imageUrl)
 
             val db = FirebaseFirestore.getInstance()
             db.collection("equipment_rentals")
@@ -34,7 +35,11 @@ class AddEquipmentActivity : AppCompatActivity() {
                     finish() // Go back to Admin Panel
                 }
                 .addOnFailureListener { exception ->
-                    Toast.makeText(this, "Error adding equipment: ${exception.message}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        this,
+                        "Error adding equipment: ${exception.message}",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
         }
     }
