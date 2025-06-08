@@ -83,6 +83,7 @@ class CropSuggetionActivity : AppCompatActivity() {
             updateCropList()
         }
     }
+
     private fun loadCropData() {
         val inputStream =
             resources.openRawResource(R.raw.allcrop)  // ✅ Correct way to load raw file
@@ -91,6 +92,7 @@ class CropSuggetionActivity : AppCompatActivity() {
         cropList = Gson().fromJson(reader, type)
         reader.close()  // ✅ Always good practice to close the reader
     }
+
     private fun updateCropList() {
         val selectedDistrict = binding.spinnerDistrict.selectedItem?.toString() ?: return
         val selectedSeason = binding.spinnerSeason.selectedItem?.toString() ?: return
