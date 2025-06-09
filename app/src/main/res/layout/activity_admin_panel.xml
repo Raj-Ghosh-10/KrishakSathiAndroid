@@ -5,7 +5,6 @@
     android:background="#F2F2F2"
     android:orientation="vertical"
     android:padding="16dp">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,7 +14,6 @@
         android:textColor="#2E7D32"
         android:textSize="20sp"
         android:textStyle="bold" />
-
     <Button
         android:id="@+id/addEquipmentButton"
         android:layout_width="match_parent"
@@ -26,7 +24,6 @@
         android:text="নতুন যন্ত্রপাতি যোগ করুন"
         android:textColor="#FFFFFF"
         android:textSize="16sp" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/equipmentRecyclerView"
         android:layout_width="match_parent"
@@ -37,5 +34,4 @@
         android:elevation="2dp"
         android:padding="8dp"
         android:scrollbars="vertical" />
-
 </LinearLayout>
